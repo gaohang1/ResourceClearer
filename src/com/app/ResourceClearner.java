@@ -54,6 +54,7 @@ public class ResourceClearner {
 //        if (args.length == 0)
 //            return;
 //        mRoot = args[0];
+//扫描本地工程的路径
         mRoot="E:/Android Development/Project/05_Implementation/trunk/DuPontLargeFarmers";
         if(!new File(mRoot).exists()){
             System.out.println("You give the project's root path is wrong!!!");
